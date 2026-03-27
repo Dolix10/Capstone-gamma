@@ -1,0 +1,10 @@
+.employee-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 12px;
+	margin-top: 18px;
+}
+
+.employee-list p {
+	color: #6b7280;
+}
