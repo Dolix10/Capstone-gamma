@@ -4,7 +4,7 @@ export default function EmployeeCard({ employee }) {
   return (
     <div className="employee-card">
       <h3>{employee.name}</h3>
-            <h4>Informations lova</h4>
+
       <p><strong>Poste:</strong> {employee.position}</p>
       <p><strong>Département:</strong> {employee.department}</p>
 
