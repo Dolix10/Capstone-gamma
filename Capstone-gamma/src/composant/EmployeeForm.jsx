@@ -12,12 +12,11 @@ export default function EmployeeForm({ onAddEmployee }) {
       name: name.trim(),
       position: position.trim(),
       department: department.trim(),
-      active: Math.random() < 0.5   // 🎲 aléatoire
+      active: Math.random() < 0.5  
     }
 
     onAddEmployee(newEmployee)
 
-    // reset
     setName('')
     setPosition('')
     setDepartment('')
